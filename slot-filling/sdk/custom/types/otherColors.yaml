@@ -1,0 +1,235 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+synonym:
+  entities:
+    almond:
+      synonyms:
+      - almond
+    amaranth:
+      synonyms:
+      - amaranth
+    amazon:
+      synonyms:
+      - amazon
+    amber:
+      synonyms:
+      - amber
+    amethyst:
+      synonyms:
+      - amethyst
+    apricot:
+      synonyms:
+      - apricot
+    aqua:
+      synonyms:
+      - aqua
+      - aquamarine
+    articoke:
+      synonyms:
+      - articoke
+    avocado:
+      synonyms:
+      - avocado
+    baby blue:
+      synonyms:
+      - baby blue
+    black:
+      synonyms:
+      - black
+    blond:
+      synonyms:
+      - blond
+    blue-green:
+      synonyms:
+      - blue-green
+      - blue green
+    blush:
+      synonyms:
+      - blush
+    bone:
+      synonyms:
+      - bone
+    brandy:
+      synonyms:
+      - brandy
+    brass:
+      synonyms:
+      - brass
+    bronze:
+      synonyms:
+      - bronze
+    brown:
+      synonyms:
+      - brown
+    burgundy:
+      synonyms:
+      - burgundy
+    byzantine:
+      synonyms:
+      - byzantine
+    camel:
+      synonyms:
+      - camel
+    carmine:
+      synonyms:
+      - carmine
+    champagne:
+      synonyms:
+      - champagne
+    charcoal:
+      synonyms:
+      - charcoal
+    chocolate:
+      synonyms:
+      - chocolate
+    copper:
+      synonyms:
+      - copper
+    coral:
+      synonyms:
+      - coral
+    cotton:
+      synonyms:
+      - cotton
+    frost:
+      synonyms:
+      - frost
+    fushsia:
+      synonyms:
+      - fushsia
+    gold:
+      synonyms:
+      - gold
+    green:
+      synonyms:
+      - green
+    grey:
+      synonyms:
+      - grey
+    honey:
+      synonyms:
+      - honey
+    lilac:
+      synonyms:
+      - lilac
+    lime:
+      synonyms:
+      - lime
+    magenta:
+      synonyms:
+      - magenta
+    maize:
+      synonyms:
+      - maize
+    maroon:
+      synonyms:
+      - maroon
+    melon:
+      synonyms:
+      - melon
+    mint:
+      synonyms:
+      - mint
+    moss:
+      synonyms:
+      - moss
+    mulberry:
+      synonyms:
+      - mulberry
+    neon:
+      synonyms:
+      - neon
+    noir:
+      synonyms:
+      - noir
+    olive:
+      synonyms:
+      - olive
+    onyx:
+      synonyms:
+      - onyx
+    opal:
+      synonyms:
+      - opal
+    orange:
+      synonyms:
+      - orange
+    periwinkle:
+      synonyms:
+      - periwinkle
+    phlox:
+      synonyms:
+      - phlox
+    pine:
+      synonyms:
+      - pine
+    pink:
+      synonyms:
+      - pink
+    plum:
+      synonyms:
+      - plum
+    pumpkin:
+      synonyms:
+      - pumpkin
+    purple:
+      synonyms:
+      - purple
+    raspberry:
+      synonyms:
+      - raspberry
+    red-violet:
+      synonyms:
+      - red-violet
+      - red violet
+    rhythm:
+      synonyms:
+      - rhythm
+    rose:
+      synonyms:
+      - rose
+    ruby:
+      synonyms:
+      - ruby
+    sand:
+      synonyms:
+      - sand
+    sienna:
+      synonyms:
+      - sienna
+    silver:
+      synonyms:
+      - silver
+    tan:
+      synonyms:
+      - tan
+    tangerine:
+      synonyms:
+      - tangerine
+    teal:
+      synonyms:
+      - teal
+    turquoise:
+      synonyms:
+      - turquoise
+    vanilla:
+      synonyms:
+      - vanilla
+    violet:
+      synonyms:
+      - violet
+    white:
+      synonyms:
+      - white
+  matchType: EXACT_MATCH

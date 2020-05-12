@@ -1,0 +1,39 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+intentEvents:
+- handler:
+    staticPrompt:
+      candidates:
+      - promptResponse:
+          firstSimple:
+            variants:
+            - speech: Okay $session.params.favoriteColor $session.params.favoriteAnimal,
+                good bye.
+  intent: "no"
+  transitionToScene: actions.scene.END_CONVERSATION
+- intent: "yes"
+  transitionToScene: Questions
+onEnter:
+  staticPrompt:
+    candidates:
+    - promptResponse:
+        firstSimple:
+          variants:
+          - speech: You reach the end of this silly mini game. Now that I know you
+              better, I have decided to give you a fun nickname...  $session.params.favoriteColor
+              $session.params.favoriteAnimal. So $session.params.favoriteColor $session.params.favoriteAnimal,
+              do you want to answer my silly questions again?
+        suggestions:
+        - title: "yes"
+        - title: "no"

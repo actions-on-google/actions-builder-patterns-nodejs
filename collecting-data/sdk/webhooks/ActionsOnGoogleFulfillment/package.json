@@ -1,0 +1,14 @@
+{
+  "name": "actions-builder-pattern-collecting-data",
+  "version": "0.0.0",
+  "description": "An Actions Builder sample demonstrating a design pattern for collecting data.",
+  "main": "index.js",
+  "engines": {
+    "node": "10"
+  },
+  "dependencies": {
+    "@assistant/conversation": "^3.0.0",
+    "firebase-admin": "~8.0.0",
+    "firebase-functions": "^3.1.0"
+  }
+}
